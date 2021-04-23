@@ -1,0 +1,29 @@
+.turn {
+  cursor: pointer;
+  transform: rotate(90deg);
+  color: black;
+}
+
+.myanimate {
+  position: relative;
+  z-index: 1000000;
+  bottom: 5.5em;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: transparent;
+  font-weight: 800;
+  text-shadow: rgb(69 162 158) 1px 1px;
+  animation: 1.7s linear 0s infinite normal none running MoveUpDown;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 100;
+  }
+  50% {
+    bottom: 70px;
+  }
+}

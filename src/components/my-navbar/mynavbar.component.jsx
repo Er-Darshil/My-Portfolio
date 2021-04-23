@@ -12,7 +12,7 @@ const MyNavbar = () => {
         collapseOnSelect
         expand="md"
         variant="dark"
-        className="animate-navbar nav-theme justify-content-between"
+        className="animate-navbar nav-theme justify-content-between py-2"
       >
         <Navbar.Brand href="#home">
           <img className="logo" src={Logo} alt="my logo"></img>
