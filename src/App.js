@@ -1,35 +1,50 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Fade from "react-bootstrap/Fade";
+import Slide from "react-reveal/Slide";
 
 import MyNavbar from "./components/my-navbar/mynavbar.component";
 import MyCarousal from "./components/my-carousal/my-carousal.component";
 import TitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.components";
 import Skills from "./pages/skills/skills.component";
+import ProjectTimeline from "./components/project-timeline/project-timeline.component";
 
 import "./App.css";
 
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
-      <MyNavbar />
       <MyCarousal />
       <TitleMessage />
+      <MyNavbar />
       {/* About me section */}
-      <div className="mt-5">
+      <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
             <About />
           </Fade>
         </Container>
       </div>
+      {/* skills section */}
+      <hr />
 
-      <div style={{ backgroundColor: "#333333" }} className="mt-5">
+      <div style={{ backgroundColor: "#333333" }}>
         <Container className="container-box rounded">
-          <Fade duration={500}>
+          <Slide bottom duration={500}>
             <Skills />
-          </Fade>
+          </Slide>
+        </Container>
+      </div>
+
+      {/* Project Timeline */}
+
+      <div>
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <hr />
+            <ProjectTimeline />
+          </Slide>
         </Container>
       </div>
     </div>

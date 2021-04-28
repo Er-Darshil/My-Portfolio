@@ -13,9 +13,9 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-4 text-center font-details pb-5">ABOUT ME</h1>
+        <h1 className="pt-2 mt-3 text-center font-details pb-4">ABOUT ME</h1>
         <Container>
-          <Row className="pt-4 pb-5 align-items-center">
+          <Row className="pt-3 pb-4 align-items-center">
             <Col xs={12} md={6}>
               {/* Profile pic */}
               <Row className="justify-content-center mb-2 mr-2">
