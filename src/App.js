@@ -9,16 +9,23 @@ import TitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.components";
 import Skills from "./pages/skills/skills.component";
 import ProjectTimeline from "./components/project-timeline/project-timeline.component";
+import Contact from "./pages/contact/contact.component";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOption";
 
 import "./App.css";
 
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
-      <MyCarousal />
       <TitleMessage />
+      <MyCarousal />
       <MyNavbar />
       {/* About me section */}
+      <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />
       <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
@@ -44,6 +51,18 @@ const App = () => {
           <Slide bottom duration={500}>
             <hr />
             <ProjectTimeline />
+          </Slide>
+        </Container>
+      </div>
+      <hr />
+      <br />
+
+      {/* contact */}
+
+      <div style={{ backgroundColor: "#333333" }}>
+        <Container className="rounded">
+          <Slide bottom duration={500}>
+            <Contact />
           </Slide>
         </Container>
       </div>
