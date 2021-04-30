@@ -58,7 +58,6 @@ const App = () => {
       <br />
 
       {/* contact */}
-
       <div style={{ backgroundColor: "#333333" }}>
         <Container className="rounded">
           <Slide bottom duration={500}>
