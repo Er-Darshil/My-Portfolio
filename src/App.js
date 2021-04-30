@@ -59,7 +59,7 @@ const App = () => {
 
       {/* contact */}
       <div style={{ backgroundColor: "#333333" }}>
-        <Container className="rounded">
+        <Container className="container-box rounded">
           <Slide bottom duration={500}>
             <Contact />
           </Slide>
