@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.bba64b52.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.41e50eef.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.41e50eef.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.72ac2b29.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.72ac2b29.js.map",
+    "static/js/2.6b68cb1b.chunk.js": "/My-Portfolio/static/js/2.6b68cb1b.chunk.js",
+    "static/js/2.6b68cb1b.chunk.js.map": "/My-Portfolio/static/js/2.6b68cb1b.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "static/css/main.bba64b52.chunk.css.map": "/My-Portfolio/static/css/main.bba64b52.chunk.css.map",
+    "static/js/2.6b68cb1b.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.6b68cb1b.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-4.997c463d.svg": "/My-Portfolio/static/media/bootstrap-4.997c463d.svg",
+    "static/media/circle-cropped(2).6b395193.png": "/My-Portfolio/static/media/circle-cropped(2).6b395193.png",
+    "static/media/circle-cropped.f96478a1.png": "/My-Portfolio/static/media/circle-cropped.f96478a1.png",
+    "static/media/css3.8fba365c.svg": "/My-Portfolio/static/media/css3.8fba365c.svg",
+    "static/media/ejs.7040f725.svg": "/My-Portfolio/static/media/ejs.7040f725.svg",
+    "static/media/express.75fff9be.svg": "/My-Portfolio/static/media/express.75fff9be.svg",
+    "static/media/git-icon.c60b7e5a.svg": "/My-Portfolio/static/media/git-icon.c60b7e5a.svg",
+    "static/media/github.740db6be.svg": "/My-Portfolio/static/media/github.740db6be.svg",
+    "static/media/heroku.73be03b3.svg": "/My-Portfolio/static/media/heroku.73be03b3.svg",
+    "static/media/html-5.821ba738.svg": "/My-Portfolio/static/media/html-5.821ba738.svg",
+    "static/media/javascript.ba40d6a9.svg": "/My-Portfolio/static/media/javascript.ba40d6a9.svg",
+    "static/media/mongodb.d89a6eeb.svg": "/My-Portfolio/static/media/mongodb.d89a6eeb.svg",
+    "static/media/nodejs.52cbf9a8.svg": "/My-Portfolio/static/media/nodejs.52cbf9a8.svg",
+    "static/media/pizzastore.66c53be2.png": "/My-Portfolio/static/media/pizzastore.66c53be2.png",
+    "static/media/quizapp.7b6bddd7.png": "/My-Portfolio/static/media/quizapp.7b6bddd7.png",
+    "static/media/react-bootstrap.1c7d4dd1.svg": "/My-Portfolio/static/media/react-bootstrap.1c7d4dd1.svg",
+    "static/media/react.add74742.svg": "/My-Portfolio/static/media/react.add74742.svg",
+    "static/media/slide1.14619b04.webp": "/My-Portfolio/static/media/slide1.14619b04.webp",
+    "static/media/slide2.d58e7971.webp": "/My-Portfolio/static/media/slide2.d58e7971.webp",
+    "static/media/slide3.ea32b5ab.webp": "/My-Portfolio/static/media/slide3.ea32b5ab.webp",
+    "static/media/todolist.00c4737e.png": "/My-Portfolio/static/media/todolist.00c4737e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72ac2b29.js",
+    "static/js/2.6b68cb1b.chunk.js",
+    "static/css/main.bba64b52.chunk.css",
+    "static/js/main.41e50eef.chunk.js"
+  ]
+}
