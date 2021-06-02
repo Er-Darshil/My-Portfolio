@@ -15,6 +15,7 @@ import Col from "react-bootstrap/Col";
 import L_ToDoList from "../../assets/img/projects/todolist.png";
 import L_PizzaStore from "../../assets/img/projects/pizzastore.png";
 import L_QUIZAPP from "../../assets/img/projects/quizapp.png";
+import L_TESLACLONE from "../../assets/img/projects/TeslaClone.png";
 
 //skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -27,6 +28,8 @@ import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_EJS from "../../assets/img/skills/ejs.svg";
+import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
+import L_MATERIAL_UI from "../../assets/img/skills/material-ui-1.svg";
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -425,6 +428,86 @@ const ProjectTimeline = () => {
                   className="mt-2"
                   size="sm"
                   href="https://github.com/Er-Darshil/quiz-app"
+                  style={{ width: "27%", color: "white", margin: "auto" }}
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </Button>
+              </div>
+            </div>
+          </ImageEvent>
+          {/* Tesla Clone */}
+          <ImageEvent
+            className="text-center"
+            text="Tesla Clone"
+            src={L_TESLACLONE}
+            alt="Tesla Clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a Tesla Clone
+                        created with Reactjs, Styled components & Material-ui.
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <br />
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="REACTJS"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>
+                              REACTJS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_STYLED_COMPONENTS}
+                                alt="STYLED COMPONENTS"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>
+                              STYLED COMPONENTS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIAL_UI}
+                                alt="MATERIAL UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>
+                              MATERIAL UI
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <Button
+                  variant="dark"
+                  className="mt-2"
+                  size="sm"
+                  href="https://github.com/Er-Darshil/Tesla-Clone"
                   style={{ width: "27%", color: "white", margin: "auto" }}
                   target="_blank"
                 >
