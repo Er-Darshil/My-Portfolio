@@ -2,14 +2,11 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_NETLIFY from "../../assets/img/skills/netlify.svg";
 
 export const skills = {
   frontend: [
@@ -20,8 +17,7 @@ export const skills = {
       skillName: "HTML5",
     },
     {
-      link:
-        "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+      link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
@@ -44,27 +40,6 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    {
-      link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: L_REACT_BOOTSTRAP,
-      skillName: "React Bootstrap",
-    },
-  ],
-
-  backend: [
-    {
-      link: "https://nodejs.org/en/",
-      imgAltText: "Node.js",
-      imgSrc: L_NODE_JS,
-      skillName: "Node.js",
-    },
-    {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
-    },
   ],
 
   hostingPlatforms: [
@@ -80,6 +55,12 @@ export const skills = {
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+    {
+      link: "https://www.netlify.com/",
+      imgAltText: "Netlify",
+      imgSrc: L_NETLIFY,
+      skillName: "Netlify",
+    },
   ],
 
   programmingLanguages: [
@@ -88,15 +69,6 @@ export const skills = {
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
-    },
-  ],
-
-  databases: [
-    {
-      link: "https://www.mongodb.com/",
-      imgAltText: "MongoDB",
-      imgSrc: L_MONGODB,
-      skillName: "MongoDB",
     },
   ],
 

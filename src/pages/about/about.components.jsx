@@ -7,7 +7,7 @@ import "./about.style.css";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
-import Profile from "../../assets/img/profile/circle-cropped.png";
+import Profile from "../../assets/img/profile/avatar-modified.png";
 
 const About = () => {
   return (
@@ -36,11 +36,11 @@ const About = () => {
                 Hi there! I am <strong>&nbsp;Darshil Sachdev</strong>
                 <br />
                 A passionate programmer, born and brought up in India. I am a
-                Full Stack Web Developer Fresher with React.js, Html, CSS,
-                Node.js, Express.js and MongoDB as my tech stack.
+                Frontend Web Developer Fresher skilled with HTML, CSS,
+                JAVASCRIPT and REACTJS.
                 <br />
-                In 2021, I will be completing my Engineering with specialization
-                in 'Electronics and Communication'.
+                In 2021, I have completed my Engineering with specialization in
+                'Electronics and Communication'.
                 <br />
                 I love learning about new technologies, what problems are they
                 solving and How can I use them to build better and scalable
@@ -59,7 +59,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1Awc53NtlSnJ38BkzweUQhlgmn-QJaAo7/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1hjeoAEuBSKxL3a6-uV2DoXNPmcJCGQf-/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
