@@ -3,6 +3,10 @@
   "homepage": "https://Er-Darshil.github.io/My-Portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.15.1"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
