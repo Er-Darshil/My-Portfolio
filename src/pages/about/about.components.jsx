@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import "./about.style.css";
-import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
+import React from "react"
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+import "./about.style.css"
+import Image from "react-bootstrap/Image"
+import Button from "react-bootstrap/Button"
 
-import Profile from "../../assets/img/profile/avatar-modified.png";
+import Profile from "../../assets/img/profile/avatar-modified.png"
 
 const About = () => {
   return (
@@ -59,7 +59,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1SlSbrR7A1MzWa_5ufHeQxPd5Dp9tWeMF/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1JCf8dALxS42OiPIzeOR_Mya3bNc5Um58/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -97,7 +97,7 @@ const About = () => {
         </Container>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
