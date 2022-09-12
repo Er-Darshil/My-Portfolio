@@ -1,31 +1,33 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React from "react"
 import {
   Timeline,
   Events,
   ImageEvent,
   createTheme,
   themes,
-} from "@merc/react-timeline";
-import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+} from "@merc/react-timeline"
+import Button from "react-bootstrap/Button"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 //projects
 
-import Dashboard from "../../assets/img/projects/Dashboard.png";
-import URL_Grabber from "../../assets/img/projects/chromeExtension.png";
-import Chatapp from "../../assets/img/projects/chatapp.png";
+import Dashboard from "../../assets/img/projects/Dashboard.png"
+import URL_Grabber from "../../assets/img/projects/chromeExtension.png"
+import Chatapp from "../../assets/img/projects/chatapp.png"
+import Youtube_clone from "../../assets/img/projects/Youtube_clone.png"
 
 //skills
-import L_REACT from "../../assets/img/skills/react.svg";
-import Image from "react-bootstrap/Image";
-import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_REACT from "../../assets/img/skills/react.svg"
+import Image from "react-bootstrap/Image"
+import L_HTML5 from "../../assets/img/skills/html-5.svg"
+import L_CSS3 from "../../assets/img/skills/css3.svg"
+import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg"
+import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg"
 
-import Accordion from "react-bootstrap/Accordion";
-import Card from "react-bootstrap/Card";
-import "./project-timeline.style.css";
+import Accordion from "react-bootstrap/Accordion"
+import Card from "react-bootstrap/Card"
+import "./project-timeline.style.css"
 
 const customTheme = createTheme(themes.default, {
   card: {
@@ -37,7 +39,7 @@ const customTheme = createTheme(themes.default, {
   timelineTrack: {
     backgroundColor: "#333333",
   },
-});
+})
 
 const ProjectTimeline = () => {
   return (
@@ -45,6 +47,138 @@ const ProjectTimeline = () => {
       <h1 className="pt-4 text-center font-details pb-3">PROJECTS</h1>
       <Timeline theme={customTheme}>
         <Events>
+          {/* Youtube 2.0 */}
+          <ImageEvent
+            className="text-center"
+            text="Youtube 2.0"
+            src={Youtube_clone}
+            alt="Youtube 2.0"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a Clone of Youtube
+                        where you can view the videos, channels and also search
+                        for particular videos.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>play the videos</li>
+                          <li>Search for particular videos</li>
+                          <li>Check the videos of particular channel</li>
+                          <li>Responsive design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <Row>
+                          <Col md={6} xs={12}>
+                            <ul>
+                              <br />
+                              <li>
+                                <span className="p-2">
+                                  <Image
+                                    src={L_JAVASCRIPT}
+                                    alt="JAVASCRIPT"
+                                    rounded
+                                    className="image-style1 m-1"
+                                  ></Image>
+                                  JAVASCRIPT
+                                </span>
+                              </li>
+                              <li>
+                                <span className="p-2">
+                                  <Image
+                                    src={L_HTML5}
+                                    alt="HTML5"
+                                    rounded
+                                    className="image-style1 m-1"
+                                  ></Image>
+                                  HTML
+                                </span>
+                              </li>
+                              <li>
+                                <span className="p-2">
+                                  <Image
+                                    src={L_CSS3}
+                                    alt="CSS3"
+                                    rounded
+                                    className="image-style1 m-1"
+                                  ></Image>
+                                  CSS
+                                </span>
+                              </li>
+                            </ul>
+                          </Col>
+                          <Col md={6} xs={12}>
+                            <ul>
+                              <br />
+                              <li>
+                                <span className="p-2">
+                                  <Image
+                                    src={L_REACT}
+                                    alt="REACT"
+                                    rounded
+                                    className="image-style1 m-1"
+                                  ></Image>
+                                  REACTJS
+                                </span>
+                              </li>
+                              <li>
+                                <span className="p-2">
+                                  <Image
+                                    src={L_MATERIALUI}
+                                    alt="MATERIAL UI"
+                                    rounded
+                                    className="image-style1 m-1"
+                                  ></Image>
+                                  MATERIAL UI
+                                </span>
+                              </li>
+                              <br />
+                            </ul>
+                          </Col>
+                        </Row>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <Button
+                  variant="dark"
+                  className="mt-2"
+                  size="sm"
+                  href="https://frabjous-daffodil-a75d51.netlify.app/"
+                  style={{ width: "27%", color: "white", marginLeft: "10%" }}
+                  target="_blank"
+                >
+                  SEE LIVE
+                </Button>
+                <Button
+                  variant="dark"
+                  className="mt-2"
+                  size="sm"
+                  href="https://github.com/Er-Darshil/Youtube_clone"
+                  style={{ width: "27%", color: "white", marginRight: "10%" }}
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </Button>
+              </div>
+            </div>
+          </ImageEvent>
+          {/* Chat App */}
           <ImageEvent
             className="text-center"
             text="Chat - Application"
@@ -372,7 +506,7 @@ const ProjectTimeline = () => {
         </Events>
       </Timeline>
     </div>
-  );
-};
+  )
+}
 
-export default ProjectTimeline;
+export default ProjectTimeline
